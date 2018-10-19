@@ -1,0 +1,134 @@
+.wrap .catalog .catalog-nav .catalog-nav-btn, .wrap .catalog .catalog-items .catalog-item .catalog-item-btn-wrap .catalog-item-btn {
+  outline: none;
+  border: none;
+  cursor: pointer; }
+
+body {
+  background: url("../images/blur-background.jpg") no-repeat center;
+  background-size: cover;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: #343233; }
+
+.wrap {
+  width: 64.62212%;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 0 25px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  @media all and (max-width: 768px) {
+    .wrap {
+      width: 95%; } }
+  .wrap .header {
+    height: 150px;
+    line-height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-bottom: 1px dashed #e7e7e7;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+    .wrap .header .header__logo {
+      width: 128px;
+      height: 128px;
+      margin: auto 20px auto 0;
+      background: url("../images/if_cart-checked_532812.png") no-repeat center;
+      background-size: cover; }
+      @media all and (max-width: 768px) {
+        .wrap .header .header__logo {
+          width: 90px;
+          height: 90px; } }
+      @media all and (max-width: 567px) {
+        .wrap .header .header__logo {
+          width: 70px;
+          height: 70px; } }
+    .wrap .header .header__name {
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: lighter;
+      font-size: 60px;
+      font-family: "Roboto", sans-serif; }
+      @media all and (max-width: 768px) {
+        .wrap .header .header__name {
+          font-size: 40px; } }
+      @media all and (max-width: 567px) {
+        .wrap .header .header__name {
+          font-size: 34px; } }
+  .wrap .shopping-cart {
+    color: #3479c4;
+    font-size: 24px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 25px 0; }
+    @media all and (max-width: 567px) {
+      .wrap .shopping-cart {
+        font-size: 20px; } }
+    .wrap .shopping-cart a {
+      text-decoration: none;
+      color: #3479c4; }
+    .wrap .shopping-cart .shopping-cart-info {
+      margin-left: 15px; }
+      .wrap .shopping-cart .shopping-cart-info .shopping-cart-bold {
+        font-weight: bold; }
+  .wrap .catalog .catalog-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 35px;
+    padding-bottom: 30px; }
+    .wrap .catalog .catalog-nav .catalog-nav-btn {
+      padding: 13px;
+      -webkit-box-shadow: 0 1px 0 0 #fc003b;
+              box-shadow: 0 1px 0 0 #fc003b;
+      background-color: transparent; }
+      .wrap .catalog .catalog-nav .catalog-nav-btn:not(:last-child) {
+        margin-right: 10px; }
+  .wrap .catalog .catalog-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    min-height: 1300px; }
+    .wrap .catalog .catalog-items .catalog-item {
+      width: 372px;
+      padding: 25px;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box; }
+      .wrap .catalog .catalog-items .catalog-item .catalog-item-img {
+        width: 100%;
+        height: auto;
+        max-height: 223px; }
+      .wrap .catalog .catalog-items .catalog-item:hover .catalog-item-img {
+        -webkit-transform: scale(1.1);
+                transform: scale(1.1); }
+      .wrap .catalog .catalog-items .catalog-item .catalog-item-name {
+        padding: 25px 0;
+        font-size: 20px; }
+      .wrap .catalog .catalog-items .catalog-item .catalog-item-about {
+        line-height: 18px; }
+      .wrap .catalog .catalog-items .catalog-item .catalog-item-btn-wrap {
+        margin: 20px 0 50px 0; }
+        .wrap .catalog .catalog-items .catalog-item .catalog-item-btn-wrap .catalog-item-btn {
+          height: 38px;
+          line-height: 38px;
+          color: #fff;
+          background-color: #10120f;
+          border-radius: 50px;
+          padding: 0 13px; }
+        .wrap .catalog .catalog-items .catalog-item .catalog-item-btn-wrap .catalog-item-btn_to-cart:hover {
+          background-color: #fc003b; }
+      .wrap .catalog .catalog-items .catalog-item .catalog-item-cost {
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: bold; }
+  .wrap .footer {
+    text-align: center;
+    padding: 30px 0; }

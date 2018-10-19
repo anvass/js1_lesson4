@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lesson4</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:300,400,700&amp;subset=cyrillic"
+          rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
+          integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="packages/reset.css">
+    <link rel="stylesheet" href="packages/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+<div class="wrap">
+
+    <header class="header">
+        <div class="header__logo"></div>
+        <div class="header__name">Корзина</div>
+    </header>
+
+    <div class="shopping-cart">
+        <i class="fas fa-shopping-cart"></i>
+        <a href="#">
+            <p class="shopping-cart-info">
+                <span class="shopping-cart-bold" id="shopping-cart-count">0</span>
+                товаров,
+                <span class="shopping-cart-bold" id="shopping-cart-price">0.00</span>
+                руб.
+            </p>
+        </a>
+    </div>
+
+    <div class="catalog">
+
+        <div class="catalog-nav">
+            <button type="button" class="catalog-nav-btn" data-rel="all">Все</button>
+            <button type="button" class="catalog-nav-btn" data-rel="macpro">MacPro</button>
+            <button type="button" class="catalog-nav-btn" data-rel="iphone">iPhone</button>
+        </div>
+
+        <div class="catalog-items">
+            <div class="catalog-item all macpro">
+                <img src="images/item1.jpg" alt="item1" class="catalog-item-img">
+                <p class="catalog-item-name">Apple MacBook Pro 13" Core i7 2,7 ГГц, 16 ГБ, 1 ТБ SSD</p>
+                <p class="catalog-item-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
+                    iure labore nesciunt rem totam! Accusamus alias aliquid cum minus soluta?</p>
+                <div class="catalog-item-btn-wrap">
+                    <button type="button" class="catalog-item-btn catalog-item-btn_to-cart">В корзину</button>
+                    <button type="button" class="catalog-item-btn catalog-item-btn_more">Подробнее</button>
+                </div>
+                <p class="catalog-item-cost">227000 руб.</p>
+            </div>
+
+            <div class="catalog-item all iphone">
+                <img src="images/item2.jpg" alt="item2" class="catalog-item-img">
+                <p class="catalog-item-name">Apple iPhone XS Max 64 ГБ серебристый</p>
+                <p class="catalog-item-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
+                    iure labore nesciunt rem totam! Accusamus alias aliquid cum minus soluta?</p>
+                <div class="catalog-item-btn-wrap">
+                    <button type="button" class="catalog-item-btn catalog-item-btn_to-cart">В корзину</button>
+                    <button type="button" class="catalog-item-btn catalog-item-btn_more">Подробнее</button>
+                </div>
+                <p class="catalog-item-cost">127990.15 руб.</p>
+            </div>
+
+            <div class="catalog-item all iphone">
+                <img src="images/item6.jpg" alt="item4" class="catalog-item-img">
+                <p class="catalog-item-name">Apple iPhone XR 128 ГБ (PRODUCT)RED</p>
+                <p class="catalog-item-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
+                    iure labore nesciunt rem totam! Accusamus alias aliquid cum minus soluta?</p>
+                <div class="catalog-item-btn-wrap">
+                    <button type="button" class="catalog-item-btn catalog-item-btn_to-cart">В корзину</button>
+                    <button type="button" class="catalog-item-btn catalog-item-btn_more">Подробнее</button>
+                </div>
+                <p class="catalog-item-cost">97000 руб.</p>
+            </div>
+
+            <div class="catalog-item all macpro">
+                <img src="images/item5.jpg" alt="item5" class="catalog-item-img">
+                <p class="catalog-item-name">Apple MacBook Pro 13" Core i5 2,3 ГГц, 8 ГБ, 256 ГБ SSD</p>
+                <p class="catalog-item-about">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem
+                    iure labore nesciunt rem totam! Accusamus alias aliquid cum minus soluta?</p>
+                <div class="catalog-item-btn-wrap">
+                    <button type="button" class="catalog-item-btn catalog-item-btn_to-cart">В корзину</button>
+                    <button type="button" class="catalog-item-btn catalog-item-btn_more">Подробнее</button>
+                </div>
+                <p class="catalog-item-cost">159500.43 руб.</p>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <p class="footer-text">&copy; 2018. All rights reserved</p>
+    </footer>
+
+</div>
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/index.js"></script>
+
+</body>
+</html>
